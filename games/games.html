@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="ico.jfif">
+        <meta name="keywords" content="games chess Mine&nbsp;Sweeper Platformer Solitare Platform&nbsp;Game Word&nbsp;Search Powder&nbsp;Game Card&nbsp;Stack 2048">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="description" content="a website with a bunch of diffrent types of games">
+        <meta name="author" content="Vinnie Rinella">
+        <style>
+            * {
+                background-color: black;
+            }
+            .gold {
+                color: gold;
+            }
+            .block {
+                color: #ff0000;
+                width: 20vw;
+                height: 40vh;
+                vertical-align: middle;
+                border: 5px solid red;
+                margin: auto;
+                text-align: center;
+                background-color:  #2f3236;
+            }
+            #tbl {
+                border-spacing: 10px;
+                margin: auto;
+                margin-top: 1%;
+            }
+            td a {
+                background-color: transparent;
+                color: maroon;
+                font-weight: bold;
+                font-size: 2.9rem;
+                text-decoration: none;
+
+            }
+            button {
+                color: gold;
+                background-color: gray;
+                width: 48%;
+                padding-top: 3%;
+                padding-bottom: 3%;
+                border-radius: 40px;
+            }
+            button a {
+                background-color: inherit;
+                color: black;
+                text-decoration: none;
+            }
+            button:hover {
+                background-color: darkgray;
+            }
+            h1 {
+                color: gold;
+                font-size: 5rem;
+                text-align: center;
+            }
+            td {
+                background-repeat: no-repeat;
+                background-size:cover;
+            }
+            .center {
+                text-align: center;
+                display: block;
+                font-size: 2rem;
+                text-decoration: none;
+                
+            }
+            #plat {
+                background-image: url(Media/Images/Platformer_background.jfif);
+            }
+            #powder {
+                background-image: url(Media/Images/powderBackground.jfif);
+            }
+            #search {
+                background-image: url(Media/Images/wordSearch.jfif);
+            }
+            #two {
+                background-image: url(Media/Images/2048.jfif);
+            }
+            #mine {
+                background-image: url(Media/Images/mines.jfif);
+            }
+            #chess {
+                background-image: url(Media/Images/chess.png);
+            }
+            #card {
+                background-image: url(Media/Images/card.png);
+            }
+            #solitare {
+                background-image: url(Media/Images/solitare.jfif);
+            }
+            #sudoku {
+                background-image: url(Media/Images/sudoku.png);
+            } 
+            #snake {
+                background-image: url(Media/Images/snake.png);
+            } 
+            #war {
+                background-image: url(Media/Images/war.jfif);
+            }
+            #farm {
+                background-image: url(Media/Images/merge.jfif);
+            }
+        </style>
+        <title>Game</title>
+    </head>
+    <body>
+        <a href="../index.html" class="gold center">Back</a>
+        <h1>Games</h1>
+        <table id="tbl">
+            <tr>
+                <td class="block" id="chess">
+                    <a href="Chess/chess.html">Chess</a>
+                </td>
+                <td class="block" id="snake">
+                    <a href="Snake/Snake.html">Snake</a>
+                </td>
+                <td class="block" id="plat">
+                    <a href="Platformer/HTML/menu.html">Platformer</a>
+                </td>
+                <td class="block" id="powder">
+                    <a href="Powder/powder.html">Powder Game</a>
+                </td>
+                <td class="block" id="two">
+                    <a href="2048/num.html">2048</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="block" id="mine">
+                    <a href="Mine_Sweeper/mine.html">Mine Sweeper</a>
+                </td>
+                <td class="block" id="solitare">
+                    <a href="Solitare/solitare.html">Solitare</a>
+                </td>
+                <td class="block" id="search">
+                    <a href="Word_Search/word.html">Word Search</a>
+                </td>
+                <td class="block" id="sudoku">
+                    <a href="Sudoku/sud.html">Sudoku</a>
+                </td>
+                <td class="block" id="card">
+                    <a href="Card_Stack/card.html">Card Stack</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="block" id="war"> 
+                    <a href="War/war.html">War</a>
+                </td>
+                <td class="block" id="farm">
+                    <a href="Farm/farm.html">Merge Farm</a>
+                </td>
+                <td class="block" id="speed">
+                    <a href="Speed/speed.html">Speed</a>
+                </td>
+                <td class="block" id="trash">
+                    <a href="Trash/trash.html">Trash</a>
+                </td>
+                <td class="block" id="battle">
+                    <a href="Battle_Ship/battle.html">Battle Ship</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="block" id="numbers">
+                    <a href="Number_Match/num.html">Number Match</a>
+                </td>
+                <td class="block" id="bingo">
+                    <a href="Bingo/bingo.html">Bingo</a>
+                </td>
+                <td class="block" id="rummy">
+                    <a href="rummy/rum.html">Gin Rummy 500</a>
+                </td>
+                <td class="block" id="pong">
+                    <a href="pong/pong.html">Pong</a>
+                </td>
+                <td class="block" id="packman">
+                    <a href="packman/pack.html">Pacman</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="block" id="tictac">
+                    <a href="Tic_Tac_Toe/tic.html">Tic Tac Toe</a>
+                </td>
+                <td class="block" id="ball">
+                    <a href="Spider/spid.html">Spider</a>
+                </td>
+                <td class="block" id="tetris">
+                    <a href="tetris/tetris.html">Tetris</a>
+                </td>
+                <td class="block" id="conway">
+                    <a href="life/life.html">Conways Game of life</a>
+                </td>
+                <td class="block" id="wood">
+                    <a href="wood/wood.html">Wood Puzzle</a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

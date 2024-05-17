@@ -1,0 +1,189 @@
+----------Chess------------
+add move storage
+add piece storage
+make ai for it
+make background of highlited square yellow
+clean up movement
+add promotion
+add enpasant
+add draw check
+----------Snake------------
+50 x 50
+----------Platformer-------
+
+----------Powder-----------
+Element List:
+Uranium
+Iron
+Titanium
+Gold
+Plasma
+Fire
+Gunpowder
+C4
+Tungsten
+Tin
+Wood
+Water
+Salt Water
+Distilled Water
+Plutonium
+Mercury
+Lung
+Heart
+Brain
+Blood
+Blood Vessel
+Lead
+Metal
+Polonium
+Nitrogen
+Oxygen
+Hydrogen
+Argon
+Noble Gas
+Lithium
+Gas
+Oil
+Diesel
+Deuterium
+Proton
+Neutron
+Electron
+Photon
+----------2048-------------
+4 x 4
+----------Mine Sweeper--------------
+Easy 16 x 16
+Medium 32 x 32
+Hard 64 x 64
+Very Hard 128 x 128
+Impossible 256 x 256
+----------Solitare---------
+
+----------Word Search------
+Easy 10 x 10 10 words
+Medium 20 x 20 20 words
+Hard 30 x 30 30 words
+Impossible 40 x 40 50 words
+----------sudoku-----------
+9x9
+----------Card Stack-------
+make the deal stack the cards 
+make win screen
+add money
+add upgrades
+make it so that it saves the scores
+//bugs//
+if you move a card that is not on the top of the stack it breaks the card size
+you can put 2 cards on the same layer
+----------war--------------
+
+----------Merge Farm-------
+nxt lvl = 1.5 * xp of previous start at 100
+each cust gives xp based on amount and lvl 
+lvl1 = 100
+lvl2 = lvl1 * 0.5 
+ect
+55 x 6 squares
+crop list:
+Tomato
+Wheat
+Eggplant
+Grape
+Carrot
+Pumpkin
+Pepper
+Cucumber	
+Blueberry	
+Cabbage	
+Corn	
+Potato	
+Strawberry	
+Watermelon	
+Apple Tree	
+Cherry Tree	
+Beet
+Avocado Tree	    
+Cotton	
+Orange Tree	
+lime
+Pineapple Tree	
+Kiwi Tree	
+Peach Tree	
+Fig Tree	
+Pear Tree	
+Pomegranate Tree	
+Coffee	
+Banana Tree
+Lemon Treee
+MACHINES
+juicer
+cotton mill
+bakery
+coffee press
+clothes factory
+
+ANIMALS
+sheep
+cow
+chicken
+
+----------speed------------
+
+----------trash------------
+
+=---------battle ship------
+10 x 10
+----------number match-----
+200 x 10
+----------bingo------------
+
+----------rummy 500--------
+
+----------pong-------------
+
+----------pacman-----------
+
+----------tic tac toe------
+
+----------spider---------
+8 decks same suit
+----------tetris-----------
+
+----------game of life-----
+
+----------wood puzzle------
+
+https://developmentbuild.herokuapp.com/
+
+=====GAMES LIST=====
+Chess
+Snake
+Platformer
+powder game
+2048
+
+minesweeper
+solitare (card game)
+word search
+sudoku
+card stack
+
+war (card game)
+merge Farm
+speed (card game)
+trash (card game)
+battle ship
+
+number match
+bingo
+rummy (500 cards)
+pong
+pacman
+
+tic tac toe
+monopoly
+tetris
+conways game of life
+wood puzzle
