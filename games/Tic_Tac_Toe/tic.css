@@ -1,0 +1,28 @@
+.nav {
+    background-color: black;
+    width: 10vw;
+    text-align: center;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gold {
+    color: gold;
+}
+
+.nav::-webkit-scrollbar {
+    display: none;
+}
+
+hr {
+    margin-top: 1%;
+    border-color: red;
+}

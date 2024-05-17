@@ -1,0 +1,20 @@
+.box {
+    border: 1px solid black;
+    width: 5vw;
+    height: 5vw;
+}
+
+.grid {
+    display: grid;
+}
+
+.small {
+    grid-template-columns: 5vw 5vw 5vw;
+    grid-template-rows: 5vw 5vw 5vw;
+    border: 3px solid black;
+}
+
+.large {
+    grid-template-columns: 15.3% 15.5% 15.5%;
+    grid-template-rows: 33.5% 33.5% 33.5%;
+}
