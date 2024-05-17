@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Word Search</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="JS/main.js"></script>
+        <link rel="shortcut icon" href="Media/Images/search.jfif" type="image/x-icon">
+    </head>
+    <body>
+        <form onsubmit="make(); return false">
+            <div class="center dis">
+                <label for="dim" class="red">Dimension</label>
+                <input type="number" maxlength="2" minlength="1" required id="dim">
+            </div>
+            <div class="center dis">
+                <label for="diff" class="red">Diffculty</label>
+                <select name="difficulty" id="diff" required>
+                    <option value="0">Choose one</option>
+                    <option value="1">Easy</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Hard</option>
+                    <option value="4">Impossible</option>
+                </select>
+            </div>
+            <div class="center dis">
+                <input type="submit" name="Submit">
+            </div>
+        </form>
+    </body>
+</html>
