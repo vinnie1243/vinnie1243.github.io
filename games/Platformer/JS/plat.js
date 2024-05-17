@@ -283,18 +283,18 @@ function keyed() {
 
 function gameLoop() {
     window.sessionStorage.setItem("letMove", 4)
-    //keyed()
-    //move();
-    //drawHitboxes()
+    keyed()
+    move();
+    drawHitboxes()
     updata()
-    //enemyAI()
-    //moveEnemy()
-    //physics()
+    enemyAI()
+    moveEnemy()
+    physics()
     updateDisplay()
-    //animate()
+    animate()
     updata()
     center()
-    //slow();
+    slow();
     deathChck();
 }
 
