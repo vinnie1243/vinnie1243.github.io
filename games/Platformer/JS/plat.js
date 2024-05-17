@@ -1,4 +1,4 @@
-var offset = 2
+var offset = 0
 function main() {    
     var tex = window.localStorage.getItem("TexFlip")
     if(tex == undefined) {
