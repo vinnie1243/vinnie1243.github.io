@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Merge Farm</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="farm.css">        
+        <!--JS-->
+        <script src="JS/farm.js"></script>
+        <script src="JS/data.js"></script>
+    </head>
+    <body onload="main()" class="flex">
+        <nav class="nav">
+            <a href="../games.html" class="gold">Back |</a>
+            <a href="../../index.html" class="gold">Home</a>
+            <hr>
+            <h2 class="gold">Game Data</h2>
+            <section class="gold">
+                <label for="lvlprog" id="lvlDis" lvl="">Level: </label>
+                <progress id="lvlprog" max="" value=""></progress>
+                <h3 id="coins" data="0">Coins: 0</h3>
+                <h3 id="tomatoes" data="0">Tomatoes: 0</h3>
+                <h3 id="wheat" data="0">Wheat: 0</h3>
+                <h3 id="eggplants" data="0">Eggplants: 0</h3>
+                <h3 id="grapes" data="0">Grapes: 0</h3>
+                <h3 id="carrots" data="0">Carrots: 0</h3>
+                <h3 id="pumpkins" data="0">Pumpkin: 0</h3>
+                <h3 id="peppers" data="0">Peppers: 0</h3>
+                <h3 id="cucumbers" data="0">Cucumbers: 0</h3>
+                <h3 id="blueberries" data="0">Blueberries: 0</h3>
+                <h3 id="cabbages" data="0">Cabbages: 0</h3>
+                <h3 id="corn" data="0">Corn: 0</h3>
+                <h3 id="potatoes" data="0">Potatoes: 0</h3>
+                <h3 id="strawberries" data="0">Strawberrys: 0</h3>
+                <h3 id="watermelons" data="0">Watermelons: 0</h3>
+                <h3 id="apples" data="0">Apples: 0</h3>
+                <h3 id="cherries" data="0">Cherries: 0</h3>
+                <h3 id="beetroots" data="0">Beetroots: 0</h3>
+                <h3 id="avocados" data="0">Avocados: 0</h3>
+                <h3 id="cotton" data="0">Cotton: 0</h3>
+                <h3 id="oranges" data="0">Oranges: 0</h3>
+                <h3 id="limes" data="0">Limes: 0</h3>
+                <h3 id="pineapples" data="0">Pineapples: 0</h3>
+                <h3 id="kiwis" data="0">Kiwis: 0</h3>
+                <h3 id="peaches" data="0">Peachs: 0</h3>
+                <h3 id="figs" data="0">Figs: 0</h3>
+                <h3 id="pears" data="0">Pears: 0</h3>
+                <h3 id="pomegranates" data="0">Pomegranate: 0</h3>
+                <h3 id="coffee" data="0">Coffee: 0</h3>
+                <h3 id="bananas" data="0">Bananas: 0</h3>
+                <h3 id="lemons" data="0">Lemons: 0</h3>
+                <button onclick="reset()">reset</button>
+                <button onclick="genCust(1); genCust(2); genCust(3); genCust(4); genCust(5); genCust(6); genCust(7); genCust(8); genCust(9)">test</button>
+            </section>
+        </nav>
+        <section class="green flex" id="customers">
+            <div id="cust" class="flex">
+                <div id="cust1" class="pep" worth="" xp="">
+                    <!--not able to be completed-->
+                    <h4 id="cust1Name"></h4>
+                    <p class="noDis" id="cust1Gen"></p>
+                    <img src="" alt="customer 1 picture" class="pic" id="cust1pfp">
+                    <h3>Items required</h3>
+                    <section class="grid two hei" id="cust1Data">
+                        <div id="cust1Data1" class="border">
+                            <div class="noCheck" id="cust1D1Chck"></div>
+                            <p id="cust1Data1Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust1Data2" class="border">
+                            <div class="noCheck" id="cust1D2Chck"></div>
+                            <p id="cust1Data2Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust1Data3" class="border">
+                            <div class="noCheck" id="cust1D3Chck"></div>
+                            <p id="cust1Data3Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust1Data4" class="border">
+                            <div class="noCheck" id="cust1D4Chck"></div>
+                            <p id="cust1Data4Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                    </section>
+                    <!--able to be completed-->
+                    <section class="noDis">
+                        <button onclick="collectCust(1)" class="claim">Claim</button>
+                    </section>
+                </div>
+                <div id="cust2" class="pep" worth="" xp="">
+                    <h4 id="cust2Name"></h4>
+                    <p class="noDis" id="cust2Gen"></p>
+                    <img src="" class="pic" id="cust2pfp">
+                    <h3>Items required</h3>
+                    <!--not able to be completed-->
+                    <section class="grid two hei" id="cust2Data">
+                        <div id="cust2Data1" class="border">
+                            <div class="noCheck" id="cust2D1Chck"></div>
+                            <p id="cust2Data1Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust2Data2" class="border">
+                            <div class="noCheck" id="cust2D2Chck"></div>
+                            <p id="cust2Data2Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust2Data3" class="border">
+                            <div class="noCheck" id="cust2D3Chck"></div>
+                            <p id="cust2Data3Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust2Data4" class="border">
+                            <div class="noCheck" id="cust2D4Chck"></div>
+                            <p id="cust2Data4Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                    </section>
+                    <!--able to be completed-->
+                    <section class="noDis">
+                        <button onclick="collectCust(2)" class="claim">Claim</button>
+                    </section>
+                </div>
+                <div id="cust3" class="pep" worth="" xp="">
+                    <h4 id="cust3Name"></h4>
+                    <p class="noDis" id="cust3Gen"></p>
+                    <img src="" class="pic" id="cust3pfp">
+                    <h3>Items required</h3>
+                    <!--not able to be completed-->
+                    <section class="grid two hei" id="cust3Data">
+                        <div id="cust3Data1" class="border">
+                            <div class="noCheck" id="cust3D1Chck"></div>
+                            <p id="cust3Data1Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust3Data2" class="border">
+                            <div class="noCheck" id="cust3D2Chck"></div>
+                            <p id="cust3Data2Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust3Data3" class="border">
+                            <div class="noCheck" id="cust3D3Chck"></div>
+                            <p id="cust3Data3Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust3Data4" class="border">
+                            <div class="noCheck" id="cust3D4Chck"></div>
+                            <p id="cust3Data4Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                    </section>
+                    <!--able to be completed-->
+                    <section class="noDis">
+                        <button onclick="collectCust(3)" class="claim">Claim</button>
+                    </section>
+                </div>
+                <div id="cust4" class="pep" worth="" xp="">
+                    <h4 id="cust4Name"></h4>
+                    <p class="noDis" id="cust4Gen"></p>
+                    <img src="" class="pic" id="cust4pfp">
+                    <h3>Items required</h3>
+                    <!--Not able to be completed-->
+                    <section class="grid two hei" id="cust4Data">
+                        <div id="cust4Data1" class="border">
+                            <div class="noCheck" id="cust4D1Chck"></div>
+                            <p id="cust4Data1Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust4Data2" class="border">
+                            <div class="noCheck" id="cust4D2Chck"></div>
+                            <p id="cust4Data2Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust4Data3" class="border">
+                            <div class="noCheck" id="cust4D3Chck"></div>
+                            <p id="cust4Data3Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust4Data4" class="border">
+                            <div class="noCheck" id="cust4D4Chck"></div>
+                            <p id="cust4Data4Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                    </section>
+                    <!--able to be completed-->
+                    <section class="noDis">
+                        <button onclick="collectCust(4)" class="claim">Claim</button>
+                    </section>
+                </div>
+                <div id="cust5" class="pep" worth="" xp="">
+                    <h4 id="cust5Name"></h4>
+                    <p class="noDis" id="cust5Gen"></p>
+                    <img src="" class="pic" id="cust5pfp">
+                    <h3>Items required</h3>
+                    <!--not able to be completed-->
+                    <section class="grid two hei" id="cust5Data">
+                        <div id="cust5Data1" class="border">
+                            <div class="noCheck" id="cust5D1Chck"></div>
+                            <p id="cust5Data1Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust5Data2" class="border">
+                            <div class="noCheck" id="cust5D2Chck"></div>
+                            <p id="cust5Data2Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust5Data3" class="border">
+                            <div class="noCheck" id="cust5D3Chck"></div>
+                            <p id="cust5Data3Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust5Data4" class="border">
+                            <div class="noCheck" id="cust5D4Chck"></div>
+                            <p id="cust5Data4Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                    </section>
+                    <!--able to be completed-->
+                    <section class="noDis">
+                        <button onclick="collectCust(5)" class="claim">Claim</button>
+                    </section>
+                </div>
+                <div id="cust6" class="pep" worth="" xp="">
+                    <h4 id="cust6Name"></h4>
+                    <p class="noDis" id="cust6Gen"></p>
+                    <img src="" class="pic" id="cust6pfp">
+                    <h3>Items required</h3>
+                    <!--not able to be completed-->
+                    <section class="grid two hei" id="cust6Data">
+                        <div id="cust6Data1" class="border">
+                            <div class="noCheck" id="cust6D1Chck"></div>
+                            <p id="cust6Data1Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust6Data2" class="border">
+                            <div class="noCheck" id="cust6D2Chck"></div>
+                            <p id="cust6Data2Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust6Data3" class="border">
+                            <div class="noCheck" id="cust6D3Chck"></div>
+                            <p id="cust6Data3Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust6Data4" class="border">
+                            <div class="noCheck" id="cust6D4Chck"></div>
+                            <p id="cust6Data4Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                    </section>
+                    <!--Able to be completed-->
+                    <section class="noDis">
+                        <button onclick="collectCust(6)" class="claim">Claim</button>
+                    </section>
+                </div>
+                <div id="cust7" class="pep" worth="" xp="">
+                    <h4 id="cust7Name"></h4>
+                    <p class="noDis" id="cust7Gen"></p>
+                    <img src="" class="pic" id="cust7pfp">
+                    <h3>Items required</h3>
+                    <!--able to be completed-->
+                    <section class="grid two hei" id="cust7Data">
+                        <div id="cust7Data1" class="border">
+                            <div class="noCheck" id="cust7D1Chck"></div>
+                            <p id="cust7Data1Text" class="small mwidth" cost="" type=""></p>
+                        </div> 
+                        <div id="cust7Data2" class="border">
+                            <div class="noCheck" id="cust7D2Chck"></div>
+                            <p id="cust7Data2Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust7Data3" class="border">
+                            <div class="noCheck" id="cust7D3Chck"></div>
+                            <p id="cust7Data3Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust7Data4" class="border">
+                            <div class="noCheck" id="cust7D4Chck"></div>
+                            <p id="cust7Data4Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                    </section>
+                    <!--not able to be completed-->
+                    <section class="noDis">
+                        <button onclick="collectCust(7)" class="claim">Claim</button>
+                    </section>
+                </div>
+                <div id="cust8" class="pep" worth="" xp="">
+                    <h4 id="cust8Name"></h4>
+                    <p class="noDis" id="cust8Gen"></p>
+                    <img src="" class="pic" id="cust8pfp">
+                    <h3>Items required</h3>
+                    <!--not able to be completed-->
+                    <section class="grid two hei" id="cust8Data">
+                        <div id="cust8Data1" class="border">
+                            <div class="noCheck" id="cust8D1Chck"></div>
+                            <p id="cust8Data1Text" cost="" type=""></p>
+                        </div>
+                        <div id="cust8Data2" class="border">
+                            <div class="noCheck" id="cust8D2Chck"></div>
+                            <p id="cust8Data2Text" cost="" type=""></p>
+                        </div>
+                        <div id="cust8Data3" class="border">
+                            <div class="noCheck" id="cust8D3Chck"></div>
+                            <p id="cust8Data3Text" cost="" type=""></p>
+                        </div>
+                        <div id="cust8Data4" class="border">
+                            <div class="noCheck" id="cust8D4Chck"></div>
+                            <p id="cust8Data4Text" cost="" type=""></p>
+                        </div>
+                    </section>
+                    <!--able to be completed-->
+                    <section class="noDis">
+                        <button onclick="collectCust(8)" class="claim">Claim</button>
+                    </section>
+                </div>
+                <div id="cust9" class="pep" worth="" xp="">
+                    <h4 id="cust9Name"></h4>
+                    <p class="noDis" id="cust9Gen"></p>
+                    <img src="" class="pic" id="cust9pfp">
+                    <h3>Items required</h3>
+                    <!--not able to be completed-->
+                    <section class="grid two hei">
+                        <div id="cust9Data1" class="border">
+                            <div class="noCheck" id="cust9D1Chck"></div>
+                            <p id="cust9Data1Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust9Data2" class="border">
+                            <div class="noCheck" id="cust9D2Chck"></div>
+                            <p id="cust9Data2Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust9Data3" class="border">
+                            <div class="noCheck" id="cust9D3Chck"></div>
+                            <p id="cust9Data3Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                        <div id="cust9Data4" class="border">
+                            <div class="noCheck" id="cust9D4Chck"></div>
+                            <p id="cust9Data4Text" class="small mwidth" cost="" type=""></p>
+                        </div>
+                    </section>
+                    <!--able to be completed-->
+                    <section class="noDis">
+                        <button onclick="collectCust(9)" class="claim">Claim</button>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <main id="con" class="grid templates">
+
+        </main>
+        <section class="green" id="products">
+            <section class="large flex scroll">
+                <div class="border food">
+                    <img src="Media/Icons/Tomato.jpg" alt="Picture of tomato icon" class="foodPic">
+                    <p>Tomatos</p>
+                    <button class="foodButton" onclick="spawnCrop('tomato')">6 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Wheat.jpg" alt="Picture of wheat icon" class="foodPic">
+                    <p>Wheat</p>
+                    <button class="foodButton" onclick="spawnCrop('wheat')">12 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Eggplant.png" alt="Picture of eggplant icon" class="foodPic">
+                    <p>Eggplants</p>
+                    <button class="foodButton" onclick="spawnCrop('eggplant')">18 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Grapes.jfif" alt="Picture of grape icon" class="foodPic">
+                    <p>Grapes</p>
+                    <button class="foodButton" onclick="spawnCrop('grape')">30 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Carrot.jfif" alt="Picture of carrot icon" class="foodPic">
+                    <p>Carrots</p>
+                    <button class="foodButton" onclick="spawnCrop('carrot')">42 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Pumpkin.png" alt="Picture of pumpkin icon" class="foodPic">
+                    <p>Pumpkin</p>
+                    <button class="foodButton" onclick="spawnCrop('pumpkin')">60 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Pepper.jfif" alt="Picture of pepper icon" class="foodPic">
+                    <p>Peppers</p>
+                    <button class="foodButton" onclick="spawnCrop('pepper')">90 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Cucumber.jfif" alt="Picture of cucmber icon" class="foodPic">
+                    <p>Cucumber</p>
+                    <button class="foodButton" onclick="spawnCrop('cucumber')">120 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/blueberry.jfif" alt="Picture of blueberries icon" class="foodPic">
+                    <p>Blueberry</p>
+                    <button class="foodButton" onclick="spawnCrop('blueberry')">150 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/cabbage.jfif" alt="Picture of Cabbage icon" class="foodPic">
+                    <p>Cabbages</p> 
+                    <button class="foodButton" onclick="spawnCrop('cabbage')">180 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Corn.png" alt="Picture of corn icon" class="foodPic">
+                    <p>Corn</p>
+                    <button class="foodButton" onclick="spawnCrop('corn')">210 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/potato.png" alt="Picture of potato icon" class="foodPic">
+                    <p>Potatoes</p>
+                    <button class="foodButton" onclick="spawnCrop('potato')">240 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/strawberry.png" alt="Picture of strawberry icon" class="foodPic">
+                    <p>Strawberry</p>
+                    <button class="foodButton" onclick="spawnCrop('strawberry')">270 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Watermelon.jfif" alt="Picture of watermelon icon" class="foodPic">
+                    <p>Watermelon</p>
+                    <button class="foodButton" onclick="spawnCrop('watermelon')">330 Coins</button>
+                </div>    
+                <div class="border food">
+                    <img src="Media/Icons/Apple.jfif" alt="Picture of Apple tree icon" class="foodPic">
+                    <p>Apples</p>
+                    <button class="foodButton" onclick="spawnCrop('apple')">360 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/cherry.jfif" alt="Picture of cherry icon" class="foodPic">
+                    <p>Cherries</p>
+                    <button class="foodButton" onclick="spawnCrop('cherry')">390 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Beetroot.png" alt="Picture of beet icon" class="foodPic">
+                    <p>Beetroot</p>
+                    <button class="foodButton" onclick="spawnCrop('Beetroot')">420 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Avocado.jfif" alt="Picture of avacado Icon" class="foodPic">
+                    <p>Avacado</p>
+                    <button class="foodButton" onclick="spawnCrop('avacado')">450 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/cotton.jfif" alt="Picture of Cotton icon" class="foodPic">
+                    <p>Cotton</p>
+                    <button class="foodButton" onclick="spawnCrop('cotton')">480 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/orange.jfif" alt="Picture of orange icon" class="foodPic">
+                    <p>Orange</p>
+                    <button class="foodButton" onclick="spawnCrop('orange')">510 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Lime.jfif" alt="Picture of lime icon" class="foodPic">
+                    <p>Lime</p>
+                    <button class="foodButton" onclick="spawnCrop('lime')">540 Coins</button>
+                </div>  
+                <div class="border food">
+                    <img src="Media/Icons/pineapple.jfif" alt="Picture of pineapple icon" class="foodPic">
+                    <p>Pineapple</p>
+                    <button class="foodButton" onclick="spawnCrop('pineapple')">570 Coins</button>
+                </div>
+                <div class="border food">   
+                    <img src="Media/Icons/kiwi.jfif" alt="Picture of kiwi icon" class="foodPic">
+                    <p>Kiwi</p>
+                    <button class="foodButton" onclick="spawnCrop('kiwi')">600 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/peach.png" alt="Picture of peach icon" class="foodPic">
+                    <p>Peach</p>
+                    <button class="foodButton" onclick="spawnCrop('peach')">630 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/fig.jfif" alt="Picture of fig icon" class="foodPic">
+                    <p>Fig</p>
+                    <button class="foodButton" onclick="spawnCrop('fig')">660 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/pear.png" alt="Picture of pear icon" class="foodPic">
+                    <p>Pear</p>
+                    <button class="foodButton" onclick="spawnCrop('peach')">690 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/pomegranate.png" alt="Picture of pomegranate icon" class="foodPic">
+                    <p>Pomegranate</p>
+                    <button class="foodButton" onclick="spawnCrop('pomegranate')">720 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/Coffee.png" alt="Picture of coffee bean icon" class="foodPic">
+                    <p>Coffee Bean</p>
+                    <button class="foodButton" onclick="spawnCrop('coffee')">750 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/banana.png" alt="Picture of banna icon" class="foodPic">
+                    <p>Banana</p>
+                    <button class="foodButton" onclick="spawnCrop('banana')">780 Coins</button>
+                </div>
+                <div class="border food">
+                    <img src="Media/Icons/lemon.png" alt="Picture of lemon icon" class="foodPic">
+                    <p>Lemon</p>
+                    <button class="foodButton" onclick="spawnCrop('lemon')">810 Coins</button>
+                </div>
+            </section>
+            <section id="butCon">
+                <div>
+                    <button class="green" onclick="delProducts(); renderFoods()">Foods</button>
+                    <button class="green" onclick="delProducts(); renderMachines()">Machines</button>
+                    <button class="green" onclick="delProducts(); renderAnimals()">Animals</button>
+                    <button class="green" onclick="delProducts(); renderVisitors()">Visitors</button>
+                </div>
+            </section>
+        </section>
+        <div class="noDis">
+            <!--Icons-->
+            <img src="Media/Icons/Tomato.jpg" id="TomatoIcon">
+            <img src="Media/Icons/Wheat.jpg" id="WheatIcon">
+            <img src="Media/Icons/Eggplant.png" id="EggplantIcon">
+            <img src="Media/Icons/Grapes.jfif" id="GrapeIcon">
+            <img src="Media/Icons/Carrot.jfif" id="CarrotIcon">
+            <img src="Media/Icons/Pumpkin.png" id="PumpkinIcon">
+            <img src="Media/Icons/Pepper.jfif" id="PepperIcon">
+            <img src="Media/Icons/Cucumber.jfif" id="CucumberIcon">
+            <img src="Media/Icons/Blueberry.jfif" id="BlueberryIcon">
+            <img src="Media/Icons/Cabbage.jfif" id="CabbageIcon">
+            <img src="Media/Icons/Corn.png" id="CornIcon">
+            <img src="Media/Icons/potato.png" id="PotatoIcon">
+            <img src="Media/Icons/strawberry.png" id="StrawberryIcon">
+            <img src="Media/Icons/Watermelon.jfif" id="WatermelonIcon">
+            <img src="Media/Icons/Apple.jfif" id="AppleIcon">
+            <img src="Media/Icons/Cherry.jfif" id="CherryIcon">
+            <img src="Media/Icons/Beetroot.png" id="BeetrootIcon">
+            <img src="Media/Icons/Avocado.jfif" id="AvocadoIcon">
+            <img src="Media/Icons/Cotton.jfif" id="CottonIcon">
+            <img src="Media/Icons/Orange.jfif" id="OrangeIcon">
+            <img src="Media/Icons/Lime.jfif" id="LimeIcon">
+            <img src="Media/Icons/Pineapple.jfif" id="PineappleIcon">
+            <img src="Media/Icons/Kiwi.jfif" id="KiwiIcon">
+            <img src="Media/Icons/peach.png" id="PeachIcon">
+            <img src="Media/Icons/Fig.jfif" id="FigIcon">
+            <img src="Media/Icons/Pear.png" id="PearIcon">
+            <img src="Media/Icons/pomegranate.png" id="PomegranateIcon">
+            <img src="Media/Icons/Coffee.png" id="CoffeeIcon">
+            <img src="Media/Icons/banana.png" id="BananaIcon">
+            <img src="Media/Icons/lemon.png" id="LemonIcon">
+            <!--TomatoCrop-->
+            <img src="Media/Crops/T1/Tomato.png" id="Tomato1Img">
+            <img src="Media/Crops/T2/Tomato.png" id="Tomato2Img">
+            <img src="Media/Crops/T3/Tomato.png" id="Tomato3Img">
+            <img src="Media/Crops/T4/Tomato.png" id="Tomato4Img">
+            <img src="Media/Crops/T5/Tomato.png" id="Tomato5Img">
+            <img src="Media/Crops/T6/Tomato.png" id="Tomato6Img">
+            <img src="Media/Crops/T7/Tomato.png" id="Tomato7Img">
+            <img src="Media/Crops/T8/Tomato.png" id="Tomato8Img">
+            <img src="Media/Crops/T9/Tomato.png" id="Tomato9Img">
+            <img src="Media/Crops/T10/Tomato.png" id="Tomato10Img">
+        </div>
+    </body>
+</html>
