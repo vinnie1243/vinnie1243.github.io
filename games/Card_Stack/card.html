@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Card Stack</title>
+        <link rel="stylesheet" href="cards.css">
+        <script src="JS/cards.js"></script>
+        <link rel="icon" href="Media/Images/square.png" type="image/x-icon">
+    </head>
+    <body onload="main()">
+        <div id="container">
+            <nav id="nav">
+                <br>
+                <h1 class="gold">Navigation</h1>
+                <br>
+                <a href="../games.html" class="gold">Home Page</a>
+            </nav>
+            <main>
+                <div id="con"></div>
+                <p id="break"><br></p>
+                <div id="con2"></div>
+                <div>
+                    <input type="button" onclick="deal()" name="deal" id="in" value="deal">
+                </div>
+            </main> 
+            <aside id="side">
+                <h1 class="gold">Scores:</h1>
+                <p id="red" class="gold">Red Score: </p>
+                <p id="blue" class="gold">Blue Score: </p>
+                <p id="green" class="gold">Green Score: </p>
+                <p id="orange" class="gold">Orange Score: </p>
+                <p id="purple" class="gold">Purple Score: </p>
+                <p id="darkblue" class="gold">Darkblue Score: </p>
+                <p id="gray" class="gold">Gray Score: </p>
+                <p id="brown" class="gold">Brown Score: </p>
+                <button onclick="reset.hard()">Reset</button>
+            </aside>
+        </div>
+    </body>
+</html>
