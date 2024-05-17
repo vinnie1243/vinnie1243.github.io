@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    overflow: hidden;
+    display: flex;
+}
+
+#con {
+    width: 50%;
+    margin-top: 1%;
+}
+
+main {
+    margin: auto;
+    margin-bottom: 5px;
+    display: grid;
+}
+
+.noselect {
+    user-select: none;
+}
+
+#nav-bar {
+    background-color: black;
+    height: 100vh;
+    width: 10%;
+    color: gold;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+hr {
+    margin-top: 2px;
+    height: 1px;
+    background-color: red;
+    border: none;
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.bar {
+    width: 10%;
+    height: 100vh;
+    background-color: black;
+    color: gold;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.medium {
+    font-size: 1.9rem;
+}
