@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Platformer</title>
+        <link rel="icon" href="../Media/Images/plat.jfif" type="image/x-icon">
+        <link rel="stylesheet" href="../CSS/plat.css">
+        <script src="../JS/plat.js"></script>
+        <script src="../JS/data.js"></script>
+        <script src="../JS/physics.js"></script>
+        <script src="../JS/animations.js"></script>
+        <script src="../JS/levels.js"></script>
+        <script src="../JS/ai.js"></script>
+    </head>
+    <body onload="main()" onkeydown="keyDown(event)" onkeyup="keyUp(event)">
+        <nav class="nav">
+            <button onclick="location.reload()">reload</button>
+            <img src="../Media/menuButton.png" id="menu" onclick="gotomenu()">
+            <input type="text" id="name" placeholder="Name">
+            <input type="textarea" id="payload" placeholder="Payload">
+            <button onclick="pay()">Send payload</button>
+            <button onclick="text()" id="tex">Textures Off</button>
+        </nav>
+        <canvas id="playarea" onclick="clickChck(event)">
+
+        </canvas>
+        <div id="bar">
+            <div id="health">
+                <p>Health</p>
+                <progress max="10" min="0" value="9" id="healthbar"></progress>
+            </div>
+            <div id="bullet">
+                <p>Bullets</p>
+                <img src="../Media/bulletFull.png" class="bullet" value="true" id="bullet1">
+                <img src="../Media/bulletFull.png" class="bullet" value="true" id="bullet2">
+                <img src="../Media/bulletFull.png" class="bullet" value="true" id="bullet3">
+                <img src="../Media/bulletFull.png" class="bullet" value="true" id="bullet4">
+                <img src="../Media/bulletFull.png" class="bullet" value="true" id="bullet5">
+                <img src="../Media/bulletFull.png" class="bullet" value="true" id="bullet6">
+                <img src="../Media/bulletFull.png" class="bullet" value="true" id="bullet7">
+                <img src="../Media/bulletFull.png" class="bullet" value="true" id="bullet8">
+                <img src="../Media/bulletFull.png" class="bullet" value="true" id="bullet9">
+                <img src="../Media/bulletFull.png" class="bullet" value="true" id="bullet10">
+            </div>
+        </div>
+        <div class="noDis">
+            <img src="../Media/spritesheet2.png" id="spritesheet">
+            <img src="../Media/tileset.png" id="tileset">
+        </div>
+    </body>
+</html>

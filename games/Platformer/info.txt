@@ -1,0 +1,269 @@
+####LINKS####
+##ui
+https://craftpix.net/product/game-ui-pixel-art/
+##Spirtes
+https://craftpix.net/sets/shooter-characters-pixel-art-sprite-collection/
+##backgrounds
+https://craftpix.net/freebies/free-city-backgrounds-pixel-art/  
+https://craftpix.net/freebies/free-mountain-backgrounds-pixel-art/
+https://craftpix.net/freebies/free-sky-with-clouds-background-pixel-art-set/
+https://craftpix.net/product/landscape-game-backgrounds/
+#tiles
+https://craftpix.net/freebies/nature-pixel-art-environment-free-assets-pack/
+https://craftpix.net/product/tiny-forest-tileset-platformer-pixel-art/
+https://craftpix.net/product/snow-2d-game-tileset-pixel-art/
+https://craftpix.net/product/frozen-pixel-art-environment-assets-pack/
+https://craftpix.net/product/snow-platformer-2d-game-tileset/
+https://craftpix.net/freebies/free-industrial-zone-tileset-pixel-art/
+https://craftpix.net/freebies/nature-pixel-art-environment-free-assets-pack/
+https://craftpix.net/product/bridge-constructor-tileset-pixel-art/
+#levels
+https://berrycamp.github.io/map/celeste/city/a?room=2
+####SPRITES####
+Total Spirtes = 1395
+##########White Cop Male##########
+WhiteCopMaleHurt 1 - 4 NS
+WhiteCopMaleDead 1 - 5 NS
+##########Black Cop Male##########
+BlackCopMaleIdle 1 - 6 NS
+BlackCopMaleWalk 1 - 8 NS
+BlackCopMaleRun 1 - 8 NS
+BlackCopMaleJump 1 - 8 NS
+BlackCopMaleShootShotgun 1 - 7 NS
+BlackCopMaleShootPistol 1 - 4 NS
+BlackCopMaleReloadShotgun 1 - 7 NS
+BlackCopMaleReloadPistol 1 - 8 NS
+BlackCopMaleHurt 1 - 3 NS
+BlackCopMaleDead 1 - 4 NS
+##########White Cop Female##########
+WhiteCopFemaleIdle 1 - 6 NS
+WhiteCopFemaleWalk 1 - 8 NS
+WhiteCopFemaleRun 1 - 8 NS
+WhiteCopFemalJump 1 - 8 NS
+WhiteCopFemaleShootPistol 1 - 4 NS
+WhiteCopFemaleReloadPistol 1 - 8 NS
+WhiteCopFemaleBatonSideswing 1 - 4 NS
+WhiteCopFemaleBatonSwing 1 - 4 NS
+WhiteCopFemaleHurt 1 - 3 NS
+WhiteCopFemaleDead 1 - 3 NS
+##########White Zombie Female Military##########
+WhiteZombieFemaleMilitaryIdle 1 - 7 NS
+WhiteZombieFemaleMilitaryWalk 1 - 8 NS
+WhiteZombieFemaleMilitaryRun 1 - 8 NS
+WhiteZombieFemaleMilitaryJump 1 - 8 NS
+WhiteZombieFemaleMilitarySwing 1 - 7 NS
+WhiteZombieFemaleMilitaryPunch 1 - 5 NS
+WhiteZombieFemaleMilitaryBite 1 - 7 NS
+WhiteZombieFemaleMilitaryIdleTwo 1 - 7 NS
+WhiteZombieFemaleMilitaryHurt 1 - 3 NS
+WhiteZombieFemaleMilitaryDead 1 - 4 NS
+##########White Zombie Military One########## 
+WhiteZombieMilitaryOneIdle 1 - 6 NS
+WhiteZombieMilitaryOneWalk 1 - 8 NS
+WhiteZombieMilitaryOneRun 1 - 8 NS
+WhiteZombieMilitaryOneJump 1 - 8 NS
+WhiteZombieMilitaryOneSwingOne 1 - 5 NS
+WhiteZombieMilitaryOneSwingTwo 1 - 4 NS
+WhiteZombieMilitaryOneSwingThree 1 - 3 NS
+WhiteZombieMilitaryOneIdleTwo 1 - 6 NS
+WhiteZombieMilitaryOneHurt 1 - 3 NS
+WhiteZombieMilitaryOneDead 1 - 5 NS
+##########White Zombie Military Two##########
+WhiteZombieMilitaryTwoIdle 1 - 6 NS
+WhiteZombieMilitaryTwoWalk 1 - 8 NS
+WhiteZombieMilitaryTwoRun 1 - 8 NS
+WhiteZombieMilitaryTwoJump 1 - 8 NS
+WhiteZombieMilitaryTwoSwingOne 1 - 4 NS
+WhiteZombieMilitaryTwoSwingTwo 1 - 4 NS
+WhiteZombieMilitaryTwoBite 1 - 5 NS
+WhiteZombieMilitaryTwoIdleTwo 1 - 5 NS
+WhiteZombieMilitaryTwoHurt 1 - 4 NS
+WhiteZombieMilitaryTwoDead 1 - 4 NS
+##########Mutant Zombie Poison##########
+MutantZombiePoisonIdle 1 - 6 NS
+MutantZombiePoisonWalk 1 - 8 NS
+MutantZombiePoisonRun 1 - 7 NS
+MutantZombiePoisonJump 1 - 8 NS
+MutantZombiePoisonPunch 1 - 5 NS
+MutantZombiePoisonBite 1 - 8 NS
+MutantZombiePoisonCloud 1 - 6 NS
+MutantZombiePoisonIdleTwo 1 - 6 NS
+MutantZombiePoisonHurt 1 - 5 NS
+MutantZombiePoisonDead 1 - 5 NS
+##########Mutant Zombie Baton##########
+MutantZombieBatonIdle 1 - 6 NS
+MutantZombieBatonWalk 1 - 7 NS
+MutantZombieBatonRun 1 - 8 NS
+MutantZombieBatonJump 1 - 8 NS
+MutantZombieBatonRunAttack 1 - 6 NS
+MutantZombieBatonSwing 1 - 6 NS
+MutantZombieBatonMedusa 1 - 7 NS
+MutantZombieBatonIdleTwo 1 - 5 NS
+MutantZombieBatonHurt 1 - 4 NS
+MutantZombieBatonDead 1 - 6 NS
+##########Mutant Zombie Knife##########
+MutantZombieKnifeIdle 1 - 6 NS
+MutantZombieKnifeWalk 1 - 7 NS
+MutantZombieKnifeRun 1 - 8 NS
+MutantZombieKnifeJump 1 - 8 NS
+MutantZombieKnifeRunAttack 1 - 6 NS
+MutantZombieKnifeSwing 1 - 6 NS
+MutantZombieKnifeMedusa 1 - 8 NS
+MutantZombieKnifeIdleTwo 1 - 5 NS
+MutantZombieKnifeHurt 1 - 4 NS
+MutantZombieKnifeDead 1 - 6 NS
+##########AR Soldier##########
+ARSoldierPullup 1 - 5 NS
+ARSoldierRoll 1 - 6 NS
+ARSoldierClimb 1 - 7 NS
+ARSoldierHealing 1 - 5 NS
+ARSoldierSit 1 - 3 NS 
+ARSoldierSitShoot 1 - 3 NS
+ARSoldierJump 1 - 6 NS
+ARSoldierRest 1 - 4 NS
+ARSoldierSleep 1 - 5 NS
+ARSoldierReload 1 - 8 NS
+ARSoldierGrenade 1 - 8 NS
+ARSoldierSwing 1 - 3 NS
+ARSoldierHurt 1 - 3 NS
+ARSoldierDead 1 - 4 NS
+##########Rifle Soldier##########
+RifleSoldierHang 1 - 6 NS
+RifleSoldierPullup 1 - 5 NS
+RifleSoldierRoll 1 - 6 NS
+RifleSoldierClimb 1 - 8 NS
+RifleSoldierHealing 1 - 5 NS
+RifleSoldierLieDown 1 - 4 NS
+RifleSoldierShoot 1 - 3 NS
+RifleSoldierJump 1 - 6 NS
+RifleSoldierRest 1 - 4 NS
+RifleSoldierSleep 1 - 6 NS
+RifleSoldierIdle 1 - 8 NS
+RifleSoldierWalk 1 - 8 NS
+RifleSoldierRun 1 - 8 NS
+RifleSoldierShootOne 1 - 4 NS
+RifleSoldierShootTwo 1 - 4 NS
+RifleSoldierReload 1 - 7 NS
+RifleSoldierFlare 1 - 8 NS
+RifleSoldierSwing 1 - 4 NS
+RifleSoldierHurt 1 - 3 NS
+RifleSoldierDead 1 - 4 NS
+##########Sniper Soldier##########
+SniperSoldierHang 1 - 5 NS
+SniperSoldierPullup 1 - 5 NS
+SniperSoldierRoll 1 - 7 NS
+SniperSoldierClimb 1 - 7 NS
+SniperSoldierHealing 1 - 5 NS
+SniperSoldierLieDown 1 - 4 NS
+SniperSoldierShoot 1 - 3 NS
+SniperSoldierJump 1 - 6 NS
+SniperSoldierRest 1 - 4 NS
+SniperSoldierSleep 1 - 5 NS
+SniperSoldierIdle 1 - 7 NS
+SniperSoldierWalk 1 - 8 NS
+SniperSoldierRun 1 - 6 NS
+SniperSoldierShootOne 1 - 4 NS
+SniperSoldierShootTwo 1 - 4 NS
+SniperSoldierReload 1 - 8 NS
+SniperSoldierGrenade 1 - 8 NS
+SniperSoldierSwing 1 - 5 NS
+SniperSoldierHurt 1 - 4 NS
+SniperSoldierDead 1 - 5 NS
+##########Shotgun Raider##########
+ShotgunRaiderIdle 1 - 6 NS
+ShotgunRaiderWalk 1 - 8 NS
+ShotgunRaiderRun 1 - 8 NS
+ShotgunRaiderShoot 1 - 7 NS
+ShotgunRaiderMeleeOne 1 - 6 NS
+ShotgunRaiderMeleeTwo 1 - 3 NS
+ShotgunRaiderReload 1 - 8 NS
+ShotgunRaiderJump 1 - 8 NS
+ShotgunRaiderHurt 1 - 2 NS
+ShotgunRaiderDead 1 - 4 NS
+##########Rifle Raider##########
+RifleRaiderIdle 1 - 8 NS
+RifleRaiderWalk 1 - 7 NS
+RifleRaiderRun 1 - 8 NS
+RifleRaiderHipfire 1 - 4 NS
+RifleRaiderShoot 1 - 4 NS
+RifleRaiderMelee 1 - 4 NS
+RifleRaiderReload 1 - 8 NS
+RifleRaiderJump  1 - 7 NS
+RifleRaiderHurt 1 - 3 NS
+RifleRaiderDead 1 - 5 NS
+##########Bat Raider##########
+BatRaiderIdle 1 - 6 NS
+BatRaiderWalk 1 - 7 NS
+BatRaiderRun 1 - 8 NS
+BatRaiderSwingOne 1 - 5 NS
+BatRaiderSwingTwo 1 - 5 NS
+BatRaiderSwingThree 1 - 4 NS
+BatRaiderIdleTwo 1 - 5 NS
+BatRaiderJump 1 - 8 NS
+BatRaiderHurt 1 - 2 NS
+BatRaiderDead 1 - 4 NS
+##########Zombie Cop One##########
+ZombieCopOneIdle 1 - 6 NS
+ZombieCopOneWalk 1 - 8 NS
+ZombieCopOneRun 1 - 8 NS
+ZombieCopOneJump 1 - 8 NS
+ZombieCopOneSwingOne 1 - 4 NS
+ZombieCopOneSwingTwo 1 - 4 NS
+ZombieCopOneSwingThree 1 - 4 NS
+ZombieCopOneIdleTwo 1 - 8 NS
+ZombieCopOneHurt 1 - 3 NS
+ZombieCopOneDead 1 - 5 NS
+##########Zombie Cop Two##########
+ZombieCopTwoIdle 1 - 6 NS
+ZombieCopTwoWalk 1 - 7 NS
+ZombieCopTwoRun 1 - 6 NS
+ZombieCopTwoJump 1 - 8 NS
+ZombieCopTwoSwingOne 1 - 4 NS
+ZombieCopTwoSwingTwo 1 - 4 NS
+ZombieCopTwoBite 1 - 8 NS
+ZombieCopTwoIdleTwo 1 - 8 NS
+ZombieCopTwoHurt 1 - 4 NS
+ZombieCopTwoDead 1 - 4 NS
+##########Zombie Cop Three##########
+ZombieCopThreeIdle 1 - 6 NS
+ZombieCopThreeWalk 1 - 8 NS
+ZombieCopThreeRun 1 - 8 NS
+ZombieCopThreeJump 1 - 8 NS
+ZombieCopThreeSwingOne 1 - 4 NS
+ZombieCopThreeSwingTwo 1 - 4 NS
+ZombieCopThreeBite 1 - 3 NS
+ZombieCopThreeIdleTwo 1 - 5 NS
+ZombieCopThreeHurt 1 - 3 NS
+ZombieCopThreeDead 1 - 4 NS
+##########Zombie One##########
+ZombieOneIdle 1 - 8 NS
+ZombieOneWalk 1 - 8 NS
+ZombieOneRun 1 - 8 NS
+ZombieOneEat 1 - 8 NS
+ZombieOneSwingOne 1 - 4 NS
+ZombieOneSwingTwo 1 - 4 NS
+ZombieOneSwingThree 1 - 4 NS
+ZombieOneJump 1 - 7 NS
+ZombieOneHurt 1 - 5 NS
+ZombieOneDead 1 - 5 NS
+##########Zombie Two##########
+ZombieTwoIdle 1 - 5 NS
+ZombieTwoWalk 1 - 7 NS
+ZombieTwoRun 1 - 7 NS
+ZombieTwoScream 1 - 5 NS
+ZombieTwoSwingOne 1 - 4 NS
+ZombieTwoSwingTwo 1 - 4 NS
+ZombieTwoSwingThree 1 - 4 NS
+ZombieTwoJump 1 - 6 NS
+ZombieTwoHurt 1 - 3 NS
+ZombieTwoDead 1 - 5 NS
+##########Zombie Three##########
+ZombieThreeWalk 1 - 8 NS
+ZombieThreeRun 1 - 8 NS
+ZombieThreeBite 1 - 8 NS
+ZombieThreeSwingOne 1 - 5 NS
+ZombieThreeSwingTwo 1 - 4 NS
+ZombieThreeSwingThree 1 - 5 NS  
+ZombieThreeJump 1 - 8 NS
+ZombieThreeHurt 1 - 3 NS
+ZombieThreeDead 1 - 5 NS

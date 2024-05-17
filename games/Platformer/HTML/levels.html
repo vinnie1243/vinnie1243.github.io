@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Levels</title>
+        <link rel="stylesheet" href="../CSS/level.css">
+    </head>
+    <body>
+        <script>
+            function main(input) {
+                window.localStorage.setItem("level", `${input}`)
+            }
+        </script>
+        <h4 class="ab">Levels</h4>
+        <a><img src="../Media/arrow.png" class="ab" id="rightArrow"></a>
+        <a><img src="../Media/leftarrow.png" class="ab" id="leftArrow"></a>
+        <main>
+            <div class="greyBack ab" id="mainbody">
+                <div class="brownBack ab" id="leftBar"></div>
+                <div class="brownBack ab" id="topBar"></div>
+                <div class="brownBack ab" id="rightBar"></div>
+                <div class="brownBack ab" id="bottomBar"></div>
+                <div class="corner ab" id="topLeft">
+                    <div class="blackBack ab nail" id="nail1"></div>
+                    <div class="blackBack ab nail" id="nail2"></div>
+                    <div class="blackBack ab nail" id="nail3"></div>
+                </div>
+                <div class="corner ab" id="bottomLeft">
+                    <div class="blackBack ab nail" id="nail4"></div>
+                    <div class="blackBack ab nail" id="nail5"></div>
+                    <div class="blackBack ab nail" id="nail6"></div>
+                </div>
+                <div class="corner ab" id="topRight">
+                    <div class="blackBack ab nail" id="nail7"></div>
+                    <div class="blackBack ab nail" id="nail8"></div>
+                    <div class="blackBack ab nail" id="nail9"></div>
+                </div>
+                <div class="corner ab" id="bottomRight">
+                    <div class="blackBack ab nail" id="nail10"></div>
+                    <div class="blackBack ab nail" id="nail11"></div>
+                    <div class="blackBack ab nail" id="nail12"></div>
+                </div>
+                <section style="display: grid;" id="con">
+                    <div class="lvl" id="Level1" onmouseover="main('1')">
+                        <a href="plat.html" class="lvlText noDec">Level 1</a>
+                    </div>
+                    <div class="lvl" id="Level2" onmouseover="main('2')">
+                        <a href="plat.html" class="lvlText noDec">Level 2</a>
+                    </div>
+                    <div class="lvl" id="Level3" onmouseover="main('3')">
+                        <a href="plat.html" class="lvlText noDec">Level 3</a>
+                    </div>
+                    <div class="lvl" id="Level4" onmouseover="main('4')">
+                        <a href="plat.html" class="lvlText noDec">Level 4</a>
+                    </div>
+                    <div class="lvl" id="Level5" onmouseover="main('5')">
+                        <a href="plat.html" class="lvlText noDec">Level 5</a>
+                    </div>
+                    <div class="lvl" id="Level6" onmouseover="main('6')">
+                        <a href="plat.html" class="lvlText noDec">Level 6</a>
+                    </div>
+                    <div class="lvl" id="Level7" onmouseover="main('7')">
+                        <a href="plat.html" class="lvlText noDec">Level 7</a>
+                    </div>
+                    <div class="lvl" id="Level8" onmouseover="main('8')">
+                        <a href="plat.html" class="lvlText noDec">Level 8</a>
+                    </div>
+                    <div class="lvl" id="Level9" onmouseover="main('9')">
+                        <a href="plat.html" class="lvlText noDec">Level 9</a>
+                    </div>
+                    <div class="lvl" id="Level10" onmouseover="main('10')">
+                        <a href="plat.html" class="lvlText noDec">Level 10</a>
+                    </div>
+
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
