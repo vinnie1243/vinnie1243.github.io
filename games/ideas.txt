@@ -1,0 +1,85 @@
+----------Chess------------
+add move storage
+add piece storage
+make ai for it
+make background of highlited square yellow
+clean up movement
+add promotion
+add enpasant
+add draw check
+----------Platformer-------
+
+----------Powder-----------
+Element List:
+Uranium
+Iron
+Titanium
+Gold
+Plasma
+Fire
+Gunpowder
+C4
+Tungsten
+Tin
+Wood
+Water
+Salt Water
+Distilled Water
+Plutonium
+Mercury
+Lung
+Heart
+Brain
+Blood
+Blood Vessel
+Lead
+Metal
+Polonium
+Nitrogen
+Oxygen
+Hydrogen
+Argon
+Noble Gas
+Lithium
+Gas
+Oil
+Diesel
+Deuterium
+Proton
+Neutron
+Electron
+Photon
+----------Mine Sweeper--------------
+Easy 16 x 16
+Medium 32 x 32
+Hard 64 x 64
+Very Hard 128 x 128
+Impossible 256 x 256
+----------Word Search------
+Easy 10 x 10 10 words
+Medium 20 x 20 20 words
+Hard 30 x 30 30 words
+Impossible 40 x 40 50 words
+----------Card Stack-------
+make the deal stack the cards 
+make win screen
+add money
+add upgrades
+make it so that it saves the scores
+//bugs//
+if you move a card that is not on the top of the stack it breaks the card size
+you can put 2 cards on the same layer
+----------Solitare---------
+
+----------2048-------------
+
+----------Snake------------
+
+----------sudoku-----------
+
+----------Merge Farm-------
+
+----------war--------------
+
+
+https://developmentbuild.herokuapp.com/
