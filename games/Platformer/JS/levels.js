@@ -254,8 +254,6 @@ function level(num) {
                 [1450, 1100, 500, 50, "ghostwhite", "V"],
                 ///WIN///
                 [1550, 0, 250, 50, "azure", "W"],
-                ///TEST///
-                [300, 300, 500, 500, "snow3", "N"],
             ],
 
             platformsTexOff: [
