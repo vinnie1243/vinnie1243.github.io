@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cat {
+    border: 2px solid black;
+    width: 3vw;
+    text-align: center;
+    height: 5vh;
+}
+
+#botCon {
+    margin-top: 52vh;
+    height: 20vh;
+    background-color: blue;
+}
