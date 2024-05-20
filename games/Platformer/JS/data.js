@@ -868,10 +868,24 @@ function getTextureData(texture, data) {
             "width": 48,
             "height": 48,
         },
+        "snow13": {
+            "x": 306,
+            "y": 51,
+            "width": 50,
+            "height": 50,
+        },
+        "snow14": {
+            "x": 255,
+            "y": 306,
+            "width": 50,
+            "height": 50,
+        },
         //spike 
         "spike1": {
             "x": 153,
             "y": 102,
+            "width": 50, 
+            "height": 50,
         },
         //metal
         "metal": {
@@ -896,16 +910,22 @@ function getTextureData(texture, data) {
         "brick": {
             "x": 204,
             "y": 102,
+            "width": 50,
+            "height": 50,
         },
         //halfbrick
         "halfbrick": {
             "x": 204,
             "y": 51,
+            "width": 50,
+            "height": 50,
         },
         //stone
         "stone": {
             "x": 0,
             "y": 153,
+            "width": 50,
+            "height": 50,
         }
     }
     if(textureData[texture][data] == undefined || textureData[texture][data] == null) {
