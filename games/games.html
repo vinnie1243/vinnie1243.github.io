@@ -18,10 +18,21 @@
                 width: 20vw;
                 height: 40vh;
                 vertical-align: middle;
-                border: 5px solid red;
                 margin: auto;
                 text-align: center;
                 background-color:  #2f3236;
+            }
+            .done {
+                border: 5px solid green;
+            }
+            .update {
+                border: 5px solid blue;
+            }
+            .notStarted {
+                border: 5px solid red;
+            }
+            .working {
+                border: 5px solid yellow;
             }
             #tbl {
                 border-spacing: 10px;
@@ -115,9 +126,10 @@
         <a href="../index.html" class="gold center">Back</a>
         <h1>Games</h1>
         <p>You may need to refresh the page once in a game if nothing appears if that does not work please report the bugs <a href="../info.html">here</a></p>
+        <p>if a games border is green it works if it is blue it is going to be updated soon if it is red it does not work yet if it is yellow it is currently being worked on</p>
         <table id="tbl">
             <tr>
-                <td class="block" id="chess">
+                <td class="block update" id="chess">
                     <a href="Chess/chess.html">Chess</a>
                 </td>
                 <td class="block" id="snake">
