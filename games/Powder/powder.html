@@ -4,15 +4,44 @@
         <link rel="icon" href="Media/Images/sand.jfif" type="image/x-icon">
         <title>Powder Game</title>
         <link rel="stylesheet" href="powder.css">
+        <script src="JS/powder.js"></script>
+        <script src="JS/physics.js"></script>
+        <script src="JS/data.js"></script>
+        <script src="JS/elementData.js"></script>
+        <script src="JS/menus.js"></script>
+        <!--element scripts-->
+        <script src="Elements/water.js"></script>
+        <script src="Elements/titanium.js"></script>
+        <script src="Elements/dust.js"></script>
     </head>
-    <body>
-        <canvas id="simarea"></canvas>
+    <body onload="main()">
+        <data value="" id="displayData"></data>
+        <div onmousewheel="changeSize(event)" style="width: 100vw; height: 80vh; overflow: scroll;" id="noscroll">
+            <p style="width: 100vw; height: 50px; background-color: orange;"></p>
+            <canvas id="simarea" onmousedown="spawnElementStart()" onmouseup="spawnElementEnd()" oncontextmenu="del(event)"></canvas>
+            <p style="width: 100vw; height: 50px; background-color: orange; margin-top: -1%;"></p>
+        </div>
         <section id="botCon">
             <div id="catCon">
-                <div onclick="changeCat('test')" class="cat" id="test">test</div>
+                <div onclick="changeCat('wall')" class="cat click" id="wall"><p>Walls</p></div>                
+                <div onclick="changeCat('electronic')" class="cat click" id="electronic"><p>Electronics</p></div>
+                <div onclick="changeCat('powered')" class="cat click" id="powered"><p>Powered</p></div>
+                <div onclick="changeCat('sensor')" class="cat click" id="sensor"><p>Sensors</p></div>
+                <div onclick="changeCat('force')" class="cat click" id="force"><p>Force</p></div>
+                <div onclick="changeCat('explosive')" class="cat click" id="explosive"><p>Explosives</p></div>
+                <div onclick="changeCat('gas')" class="cat click" id="gas"><p>Gases</p></div>
+                <div onclick="changeCat('liquid')" class="cat click" id="liquid"><p>Liquids</p></div>
+                <div onclick="changeCat('powder')" class="cat click" id="powder"><p>Powders</p></div>
+                <div onclick="changeCat('solid')" class="cat click" id="solid"><p>Solids</p></div>
+                <div onclick="changeCat('radioactive')" class="cat click" id="radioactive"><p>Radioactive</p></div>
+                <div onclick="changeCat('biology')" class="cat click" id="biology"><p>Biology</p></div>
+                <div onclick="changeCat('special')" class="cat click" id="special"><p>Special</p></div>
+                <div onclick="changeCat('gol')" class="cat click" id="gol"><p>GOL</p></div>
+                <div onclick="changeCat('tool')" class="cat click" id="tool"><p>Tools</p></div>
+                <div onclick="mainMenu()" class="cat click" id="menu"><p>Menu</p></div>
             </div>
             <div id="eleCon">
-
+                
             </div>
         </section>
     </body>

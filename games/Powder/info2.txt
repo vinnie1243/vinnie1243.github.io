@@ -1,0 +1,25 @@
+HOW TO DO
+#game run at 30 fps# 
+need to make an array of objects one object for each pixel in the play area
+need to make each object in that array look like this
+{
+    element: {
+        ele: "",
+        temp: -273-100000,
+        charge: 0-100,
+        velocity: 0-30,
+        direction: 1-8,
+    },
+    aHeat: -273 - 100000,
+    pressure: 0 - 256,
+    x: ?,
+    y: ?,
+    color: hexcolor,
+}
+once per frame the game will iterate though each object and check its neighbors and then see if a reaction should occur and after that if there was no reaction
+then it will see if the elements temp is over its melting point then it checks if the element should change due to pressure then if none of that happens it checks to see
+also need an array that has every pixel that needs to be drawn to the screen like this
+
+button that says menu that when clicked will bring up a menu that will have 2 buttons 1 for settings the other is for exiting back to the previous screen 
+
+the settings menu will have the option to change the size of the sim area

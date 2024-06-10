@@ -1,17 +1,67 @@
 * {
     margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+/*Elements*/
+hr {
+    border-color: red;
+}
+/*CLASSES*/
+.cat {
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    text-align: center;
+    color: gold;
+    height: 3vh;
+    width: calc(100%/5);
 }
 
-.cat {
-    border: 2px solid black;
-    width: 3vw;
+.eleBox {
+    border: 1px solid red;
+    height: 3vh;
+    width: 4.5vw;
     text-align: center;
-    height: 5vh;
+    color: gold;
+    display: inline-block;
+}
+
+.eleText {
+    margin-top: 0.6vh;
+}
+
+.click {
+    cursor: pointer;
+}
+
+/*IDS*/
+#simarea{
+    width: 100vw;
+    height: 79.6vh;
+    cursor: none;
+    overflow: scroll;
+    z-index: 1;
+}
+
+#catCon {
+    display: flex;
 }
 
 #botCon {
-    margin-top: 52vh;
+    margin-top: -0.8%;
     height: 20vh;
-    background-color: blue;
+    z-index: 99;
+    background-color: #1d1d1d;
+}
+/*Element in element*/
+
+.cat p {
+    margin-top: 0.6vh;
+}   
+
+/*OTHER*/
+#noscroll::-webkit-scrollbar {
+    display: none;
 }
