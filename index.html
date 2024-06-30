@@ -1,3 +1,4 @@
+<!--going to get turned into portfolio page-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,44 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            height: 100vh;
+        * {
+            margin: 0;
+            padding: 0;
         }
-        main {
-            height: 100%;
+        /*elements*/
+        body {
+            background-color: black;
         }
-        div {
-            font-size: 10rem;
-        }
+        /*classes*/
         .block {
-            color: #ff0000;
-            width: 40%;
-            height: 50%;
-            vertical-align: middle;
-            border: 5px solid red;
-            margin: auto;
+            width: 20vw;
+            height: 20vw;
+            background-color: #5A5A5A;
             text-align: center;
-            background-color:  #2f3236;
-            justify-content: center;
-            align-items: center;
+            border: 1px solid red;
         }
-        a {
+        .inside {
             text-decoration: none;
-            color: gold;
+            color: black;
+            font-size: 3vw;
+            padding-top: 8vw;
+            display: block;
         }
         .flex {
             display: flex;
         }
+        .nBlock {
+            width: 30vw;
+            height: 20vw;
+            background-color: #3A3A3A;
+            border: 1px solid red;
+            display: inline-block;
+        }
+        .desc {
+            font-size: 2vw;
+            text-align: center;
+        }
+        /*id*/
     </style>
 </head>
 <body>
-    <main class="flex">
-        <div class="block flex">
-            <a href="games/games.html">Games</a>
-        </div>
-        <div class="block flex">
-            <a href="Tools/tools.html">Tools</a>
-        </div>
-    </main>
+    <section class="flex">
+            <div class="nBlock">
+                <p class="desc">
+                    This project is a website i made in highschool the games are copies of other games but they were not copied from github and i made them from scratch myself with just pure js.
+                </p>
+            </div>
+            <div class="block">
+                <a href="games/games.html" class="inside">Games</a>
+            </div>
+            <div class="block">
+                <a href="AiGames/Ai.html" class="inside">Simulations</a>
+            </div>
+            <div class="nBlock">
+                <p class="desc">
+                    This project is a website with a bunch of diffrenet types of simulations on it 
+                </p>
+            </div>
+    </section>
 </body>
 </html>
