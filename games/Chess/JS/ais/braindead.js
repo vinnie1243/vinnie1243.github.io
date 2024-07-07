@@ -1,7 +1,0 @@
-function startBraindead() {
-    
-}
-
-function pickMove() {
-    
-}
