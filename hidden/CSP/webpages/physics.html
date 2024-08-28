@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Physics</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body> 
+        <nav>
+            <div class="navbox">
+                <h3><a href="../index.html">Home</a></h3>
+            </div>
+            <div class="navbox">
+                <h3><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact us</a></h3>   
+            </div>
+            <div class="navbox">
+                <h3>Rendering in 3d games</p>
+            </div>
+            <div class="navbox">
+                <h3><a href="camera.html">Camera</a></h3>
+            </div>
+            <div class="navbox">
+                <h3><a href="rendering.html">Rendering</a></h3>   
+            </div>
+        </nav>
+        <main>
+            <section class="textbox" style="margin-left: 7vw;">
+                <h2>Collision</h2>
+                <br>
+                <p>
+                    There are 2 ways that 3d games can do collision the first one is by useing a hitbox. This works by making a box 
+                    around an object and checking to see if any of the other objects hitbox is inside the hitbox of that obj and then 
+                    moving it out of that object. The other way of doing it is by using the triangles that the whole world is made of the
+                     reason that games rarely use this options is becasue it is extremely performance heavy and will cause the game to be extremly laggy. 
+                </p>
+            </section>
+
+            <section class="textbox">
+                <h2>Movement</h2>
+                <br>
+                <p>
+                    3d games typically do movement by giving each object that can move a velocity vector and then they have a function that will use that 
+                    vector to move the object based on its speed and direction and they will also have the object slow down usually in mid air so it will
+                     not go on forever.
+                </p>
+            </section>
+
+            <section class="textbox">
+                <h2>Gravity/Boyancy</h2>
+                <p>
+                    The way games do gravity is not very complicated they basically just subtract from an objects y velocity every frame 
+                    and then they use collision to stop them from falling through the floor. And the way they do boyancy in games is a 
+                    little more complicated but not by much. What games will do is assign an object a bouancy and then they will use a 
+                    vector that points straight out of the water to start moving the player in that direction if their boyancy is greater
+                     than the gravity also being applied at the same time.
+                </p>
+            </section>
+        </main>
+    </body>
+</html>

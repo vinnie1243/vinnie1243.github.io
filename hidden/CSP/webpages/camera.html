@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="navbox">
+                <h3><a href="../index.html">Home</a></h3>
+            </div>
+            <div class="navbox">
+                <h3><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact us</a></h3>   
+            </div>
+            <div class="navbox">
+                <h3>Rendering in 3d games</p>
+            </div>
+            <div class="navbox">
+                <h3><a href="rendering.html">Rendering</a></h3>
+            </div>
+            <div class="navbox">
+                <h3><a href="physics.html">Physics</a></h3>   
+            </div>
+        </nav>
+        <main>
+            <section class="textbox" style="margin-left: 7vw;">
+                <h2>Movement</h2>
+                <br>
+                <p>
+                    In 3d games movement can work in one of two ways the player can be the one moving around like in real life or the world
+                    can move around making it look like the player is moving but they actually arent. The way most games do movement of the
+                    camera/player is by moving the camera. The reason they do it that way is because it is a lot more performace friendly 
+                    becuase they dont have to do math all the time to offset the triangles based on how the player has moved
+                </p>
+            </section>
+
+            <section class="textbox">
+                <h2>Rotation</h2>
+                <br>
+                <p>
+                    Rotation in 3d games is very complicated but an over simplicfication is they use a matrix to rotate the triangles
+                     based on the roll yaw and pitch of the camera and then they make the camera look in the direction the roll yaw and 
+                     pitch have it facing
+                </p>    
+            </section>
+
+            <section class="textbox">
+                <h2>Lighting</h2>
+                <p> 
+                    Lighting in 3d games is done in one of two ways. The first way and the way most games do it is by having little light
+                     sources all over the place and then creating shadows based on if something is blocking them. The other way games do 
+                     lighting is by have light just come out of the camera.
+                </p>
+            </section>
+        </main>
+    </body>
+</html>
